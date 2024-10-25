@@ -1,0 +1,48 @@
+.nav {
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    background-color: #0E7E83;
+    width: 200vw;
+    height: 70px;
+    margin-left: -400px;
+    margin-top: -8px;
+    position: fixed;
+}
+.nav a{
+    display: none;
+}
+.nav input{
+    display: none;
+}
+select{
+    display: none;
+}
+.nav button{
+    display: none;
+}
+.i2{
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    width: 400px;
+    height: 30px;
+}
+.cat2{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(4, 300px);
+    margin-left: 50px;
+}
+.cat1{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 270px);
+    margin-left: 0px;
+    margin-top: 200px;
+    gap: 0px;
+}
+.cat1 img{
+    width: 300px;
+    height: 300px;
+}

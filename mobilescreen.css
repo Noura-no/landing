@@ -1,0 +1,127 @@
+.nav{
+width: 100vw;
+gap: 0;
+}
+ .nav a{
+    display: none;
+}
+.nav input{
+    display: none;
+}
+select{
+    display: none;
+}
+.blue{
+    width: 95vw;
+    margin: 0;
+}
+.cat2{
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(7, 300px);
+    margin-left: 50px;
+
+}
+.cat1{
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+    grid-template-rows: repeat(3, 270px);
+    margin-left: 20px;
+    margin: 180px 20px;
+    gap: 20px;
+}
+.cat1 img{
+    width: 350px;
+    height: 350px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 0px;
+}
+.green{
+    width: 95vw;
+    margin: 0;
+}
+.sky-blue{
+    width: 95vw;
+    margin: 0;
+}
+#third-section{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+}
+.farm{
+    width: 100vw;
+    height: 500px;
+    margin-left: 0px;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: #52999da3;
+    width: 88%;
+    margin-left: 0px;
+}
+#fourth-section{
+    width: 88%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px; 
+}
+.interior,.exterior{
+   
+    display: grid;
+    grid-template-columns: repeat(1,350px);
+    grid-template-rows: repeat(6,250px);
+}
+.interior img{
+    width: 300px;
+}
+.exterior img{
+    width: 300px;
+}
+.pre-footer{
+    width: 88%;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #52999da3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    width: 76%;
+    margin-left: 20px;
+    background-color: #68c0c5c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 25px;
+}
+.after{
+    width: 88%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #52999da3;
+    gap: 20px;
+}
+.after img{
+    width: 42px;
+    height: 42px;
+    border: none;
+    padding: 25px;
+}
